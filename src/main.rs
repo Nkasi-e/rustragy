@@ -3,7 +3,10 @@
 // mod datatypes;
 // mod strings;
 // mod tuples;
-mod arrays;
+// mod arrays;
+// mod vector;
+// mod conditionals;
+mod loops;
 
 fn main() {
     println!("Hello, world!");
@@ -12,5 +15,8 @@ fn main() {
     // datatypes::types()
     // strings::run();
     // tuples::run()
-    arrays::arrays()
+    // arrays::arrays()
+    // vector::vector();
+    // conditionals::run();
+    loops::run();
 }
