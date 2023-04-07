@@ -5,7 +5,6 @@ pub fn run() {
     let mut count = 0;
 
     // infinite loop
-
     loop {
         count += 1;
         println!("Number: {}", count); // this will keep running if no condition is given
@@ -16,7 +15,6 @@ pub fn run() {
     }
 
     // while loop (FizzBuzz)
-
     while count <= 100 {
         if count % 15 == 0 {
             println!("FizzBuzz");
